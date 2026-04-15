@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=Noto+Sans+Thai:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --font-body: "Noto Sans Thai", "IBM Plex Sans Thai", sans-serif;
+  --font-heading: "IBM Plex Sans Thai", "Noto Sans Thai", sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-display {
+  font-family: var(--font-heading);
+  letter-spacing: -0.02em;
+}
