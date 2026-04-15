@@ -1,0 +1,13 @@
+node_modules/
+dist/
+
+.agents/
+guidelines/
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.env
+.env.*
+!.env.example
