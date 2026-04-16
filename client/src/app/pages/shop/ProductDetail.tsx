@@ -163,18 +163,6 @@ export function ProductDetail() {
               </button>
               <img src={product.image} alt={product.name} className="aspect-square w-full rounded-[1.5rem] object-cover" />
             </div>
-            <div className="grid grid-cols-4 gap-3">
-              {[1, 2, 3, 4].map((item) => (
-                <div
-                  key={item}
-                  className={`overflow-hidden rounded-2xl border bg-white p-2 ${
-                    item === 1 ? "border-sky-300 ring-2 ring-sky-100" : "border-slate-200"
-                  }`}
-                >
-                  <img src={product.image} alt="" className="aspect-square w-full object-cover" />
-                </div>
-              ))}
-            </div>
           </motion.div>
 
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.05 }}>
