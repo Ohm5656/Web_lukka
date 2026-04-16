@@ -1,5 +1,15 @@
 node_modules/
 dist/
+client/node_modules/
+client/dist/
+server/bin/
+server/obj/
+server/artifacts/
+server/App_Data/
+App_Data/
+.dotnet/
+.templateengine/
+.vite/
 
 .agents/
 guidelines/
